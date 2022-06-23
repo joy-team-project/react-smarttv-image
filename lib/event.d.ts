@@ -1,4 +1,4 @@
-declare const WorkerEvent: {
+export declare const WorkerEvent: {
     preLoadImage: string;
     loadImage: string;
     loadImageSuccess: string;

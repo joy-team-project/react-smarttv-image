@@ -1,1 +1,1 @@
-{"version":3,"file":"event.d.ts","sourceRoot":"","sources":["../src/event.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,WAAW;;;;;CAKhB,CAAC;AAEF,eAAe,WAAW,CAAC"}
+{"version":3,"file":"event.d.ts","sourceRoot":"","sources":["../src/event.ts"],"names":[],"mappings":"AAAA,eAAO,MAAM,WAAW;;;;;CAKvB,CAAC;AAEF,eAAe,WAAW,CAAC"}

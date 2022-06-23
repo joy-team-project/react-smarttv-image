@@ -1,6 +1,5 @@
-import WorkerEvent from './event';
-import { ImageStore } from './image.store';
 import WorkerManager from './worker.manager';
-export { ImageStore, WorkerEvent };
+export { WorkerEvent } from './event';
+export { ImageStore } from './image.store';
 export default WorkerManager;
 //# sourceMappingURL=index.d.ts.map

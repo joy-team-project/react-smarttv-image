@@ -1285,11 +1285,12 @@ if (!global.fetch) {
 /*!**********************!*\
   !*** ./src/event.ts ***!
   \**********************/
-/*! exports provided: default */
+/*! exports provided: WorkerEvent, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WorkerEvent", function() { return WorkerEvent; });
 var WorkerEvent = {
   preLoadImage: 'preLoadImage',
   loadImage: 'loadImage',
@@ -1481,23 +1482,22 @@ var loadImage = /*#__PURE__*/function () {
 /*!**********************!*\
   !*** ./src/index.ts ***!
   \**********************/
-/*! exports provided: ImageStore, WorkerEvent, default */
+/*! exports provided: WorkerEvent, ImageStore, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _event__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./event */ "./src/event.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WorkerEvent", function() { return _event__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony import */ var _worker_manager__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./worker.manager */ "./src/worker.manager.ts");
+/* harmony import */ var _event__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./event */ "./src/event.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WorkerEvent", function() { return _event__WEBPACK_IMPORTED_MODULE_1__["WorkerEvent"]; });
 
-/* harmony import */ var _image_store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./image.store */ "./src/image.store.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageStore", function() { return _image_store__WEBPACK_IMPORTED_MODULE_1__["ImageStore"]; });
-
-/* harmony import */ var _worker_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./worker.manager */ "./src/worker.manager.ts");
-
+/* harmony import */ var _image_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./image.store */ "./src/image.store.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageStore", function() { return _image_store__WEBPACK_IMPORTED_MODULE_2__["ImageStore"]; });
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (_worker_manager__WEBPACK_IMPORTED_MODULE_2__["default"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (_worker_manager__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 /***/ }),
 
