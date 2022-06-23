@@ -1,0 +1,6 @@
+/api-docs
+/coverage
+/demo/libs
+/dist
+/lib
+package-lock.json
