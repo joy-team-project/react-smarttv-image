@@ -1481,7 +1481,7 @@ var loadImage = /*#__PURE__*/function () {
 /*!**********************!*\
   !*** ./src/index.ts ***!
   \**********************/
-/*! exports provided: WorkerManager, ImageStore, WorkerEvent */
+/*! exports provided: ImageStore, WorkerEvent, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1493,12 +1493,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageStore", function() { return _image_store__WEBPACK_IMPORTED_MODULE_1__["ImageStore"]; });
 
 /* harmony import */ var _worker_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./worker.manager */ "./src/worker.manager.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WorkerManager", function() { return _worker_manager__WEBPACK_IMPORTED_MODULE_2__["default"]; });
 
 
 
 
-
+/* harmony default export */ __webpack_exports__["default"] = (_worker_manager__WEBPACK_IMPORTED_MODULE_2__["default"]);
 
 /***/ }),
 

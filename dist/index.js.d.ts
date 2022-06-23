@@ -20,7 +20,7 @@ export declare const WorkerEvent: {
     loadImageError: string;
 };
 
-export declare class WorkerManager extends EventEmitter {
+declare class WorkerManager extends EventEmitter {
     private static _instance;
     private _workerImage_;
     private cbImg;
@@ -34,5 +34,6 @@ export declare class WorkerManager extends EventEmitter {
     preloadImages(urls: string[]): void;
     private destroy;
 }
+export default WorkerManager;
 
 export { }

@@ -38,7 +38,7 @@ export const WorkerEvent: {
 // Warning: (ae-missing-release-tag) "WorkerManager" is exported by the package, but it is missing a release tag (@alpha, @beta, @public, or @internal)
 //
 // @public (undocumented)
-export class WorkerManager extends EventEmitter {
+class WorkerManager extends EventEmitter {
     constructor();
     // (undocumented)
     static clear(): void;
@@ -51,6 +51,7 @@ export class WorkerManager extends EventEmitter {
     // (undocumented)
     preloadImages(urls: string[]): void;
 }
+export default WorkerManager;
 
 // (No @packageDocumentation comment for this package)
 
